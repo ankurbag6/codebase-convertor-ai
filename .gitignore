@@ -1,0 +1,29 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated C++ build artifacts
+main.cpp
+main
+*.o
+*.dSYM/
+
+# Gradio
+.gradio/
+flagged/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
